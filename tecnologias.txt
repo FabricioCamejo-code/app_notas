@@ -1,0 +1,14 @@
+express
+express-handlebars motor de plantilla
+express-session   crear sesiones
+method-override   extender funcionalidad de form 
+CRUD
+node.js
+ES6
+mongodb
+mongoose
+passport
+passport-local
+bcryptjs
+connect-flash avisar al user de un error
+nodemon

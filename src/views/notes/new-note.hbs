@@ -1,0 +1,22 @@
+<div class="rounded-2 col-md-4 mx-auto border border-black">
+    <div class="card">
+        <div class="card-header">
+            <h3>New Notes</h3>
+        </div>
+        <div class="card-body">
+            <form action="new-note" method="POST">
+                <div class="form-group mb-3">
+                    <input type="text" name="title" class="form-control" placeholder="Title" autofocus />
+                </div>
+                <div class="form-group mb-3">
+                    <textarea name="description" class="form-control" placeholder="Description"></textarea>
+                </div>
+                <div class="form-group">
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-primary">Save</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
